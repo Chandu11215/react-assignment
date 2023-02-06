@@ -3,7 +3,6 @@ import './index.css'
 import Container from "./Components/Container/Container";
 import Navbar from "./Components/Navbar/Navbar";
 
-
 const  App = () => {
 
   return (

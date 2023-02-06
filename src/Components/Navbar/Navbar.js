@@ -9,13 +9,13 @@ const Navbar = () => {
     return (
 
         <header className="nav-container">
-            <h3 className="nav-heading">MUSEUMVERSE</h3>
-            <nav className="nav">
-                <a><Home />&nbsp;HOME</a>
-                <a><ArtiCraft />&nbsp;ARTICRAFTS</a>
-                <a><Shop />&nbsp;SHOP</a>
-                <a><About />&nbsp;ABOUT</a>
-            </nav>
+            <div><h3 className="nav-heading">MUSEUMVERSE</h3></div>
+            <div className="nav">
+                <p><Home />&nbsp;HOME</p>
+                <p><ArtiCraft />&nbsp;ARTICRAFTS</p>
+                <p><Shop />&nbsp;SHOP</p>
+                <p><About />&nbsp;ABOUT</p>
+            </div>
         </header>
     )
 }
