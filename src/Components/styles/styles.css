@@ -1,22 +1,43 @@
 .nav-container {
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
     align-items: center;
+    padding: 0.4rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0.4rem;
+    width: 100%;
 }
 
 .nav-heading {
     padding-left: 11rem;
     color: blue;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .nav {
-    padding-left: 30rem;
+    display: flex;
+    width: 50%;
 }
 
-a {
-    margin: 1.5rem;
-    font-size: 0.8rem;
+.nav a {
+    font-size: 0.9rem;
+    margin-right: 3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+}
 }
 
 .container {
