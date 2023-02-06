@@ -1,0 +1,151 @@
+.nav-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.4rem;
+}
+
+.nav-heading {
+    padding-left: 11rem;
+    color: blue;
+}
+
+.nav {
+    padding-left: 30rem;
+}
+
+a {
+    margin: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.container {
+    margin-left: 11rem;
+    width: 64rem;
+    height: 48rem;
+    background-color:gainsboro;
+}
+
+.container-fluid {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.input-box {
+
+	width: 550px;
+    height: 0;
+	background-color: white;
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+
+}
+
+.input-box > i {
+	font-size: 20px;
+	color: #777;
+
+}
+
+.input-box > input{
+
+	flex: 1;
+	height: 25px;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	padding-left: 10px;
+
+
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+    width: 6rem;
+    height: 2.3rem;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.surprise {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem;
+    color: orangered;
+    font-size: 12px;
+    height: 2.3rem;
+    border-radius: 2px;
+    border: none;
+    background-color:aliceblue ;
+}
+
+.sub-container {
+    display: flex;
+    margin-left: 2.6rem;
+    border-radius: 3px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+}
+.box-card { 
+    width: 10.5rem;
+    height: 18rem;
+    background-color: white;
+    box-shadow: cornsilk;
+    margin-left: 35px;
+    border-radius: 0.5rem;
+
+}
+
+.Icons {
+    display: flex;
+    padding-top: 10px;
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+
+.first-bgBox {
+    background-color:antiquewhite;
+}
+
+.productImage{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 60%;
+}
+
+.name-price {
+    display: flex;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.name {
+    white-space: nowrap;
+    width: 100%;   
+    font-weight:500;               
+    overflow: hidden;  
+}
+
+.content {
+    font-size: 10px;
+    font-weight: 200;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
