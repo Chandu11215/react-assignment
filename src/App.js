@@ -1,21 +1,15 @@
 import React from "react";
+import './index.css'
 import Container from "./Components/Container/Container";
 import Navbar from "./Components/Navbar/Navbar";
-import useWindowSize from "./Components/utils/WindowSize";
+
 
 const  App = () => {
-   const { width } = useWindowSize();
 
   return (
     <div className="app">
-    {
-      width > 500 && (
-        <>  
-          <Navbar/>
-          <Container />
-        </>
-    )
-    }
+      <Navbar/>
+      <Container />
     </div>
   );
 }
