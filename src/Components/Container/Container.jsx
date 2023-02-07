@@ -13,18 +13,18 @@ const Container = () => {
                     <div className="input-box">
                         <i class="fa fa-search" aria-hidden="true" />
                         &nbsp;&nbsp;
-                        <input 
+                        <input
                             type="text" 
                             placeholder='Search from the world antique collection...'     
                         />
                     </div>
-                    &nbsp;&nbsp;
+                    {/* &nbsp;&nbsp;
                     <div className="filters">
                         <Filters />&nbsp;
                         FILTERS
                     </div>
                     <div style={{flex: 1}}></div>
-                    <p className="surprise">🎉&nbsp;SURPRISE ME</p>
+                    <p className="surprise">🎉&nbsp;SURPRISE ME</p> */}
             </div>
             <div  className="sub-container">
                 <div className="box"><Roomy /></div>
