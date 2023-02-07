@@ -111,7 +111,8 @@
     }
     
     .filters, .surprise {
-        display: none;
+        width: 100%;
+        margin-bottom: 20px;
     }
     
     .sub-container {
