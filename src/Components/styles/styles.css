@@ -76,7 +76,7 @@
 
 }
 
-.filters {
+/* .filters {
     display: flex;
     justify-content:center;
     align-items:center;
@@ -98,9 +98,9 @@
     border-radius: 2px;
     border: none;
     background-color:aliceblue ;
-}
+} */
 
-@media (max-width >= 576px ) {
+@media (max-width: 576px ) {
     .container {
         width: 100%;
         margin: 0 auto;
@@ -110,17 +110,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
     
     .input-box {
         width: 100%;
         margin-bottom: 20px;
     }
     
-    .filters, .surprise {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+    /* .filters, .surprise {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } */
     
     .sub-container {
         flex-direction: row;
