@@ -108,15 +108,15 @@
     }
     
     .input-box {
-        width: 30%;
+        width: 100%;
     }
     
     .filters {
-        flex-direction: row;
+       flex-direction: column;
     }
 
     .surprise {
-         flex-direction: row;
+        flex-direction: column;
     }
     
     .sub-container {
@@ -152,7 +152,6 @@
     height: 18rem;
     background-color: white;
     box-shadow: cornsilk;
-    margin-left: 35px;
     border-radius: 0.5rem;
 
 }
