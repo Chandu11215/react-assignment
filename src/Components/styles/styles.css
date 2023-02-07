@@ -99,7 +99,7 @@
     background-color:aliceblue ;
 }
 
-@media (max-width >= 567px ) {
+@media (max-width >= 576px ) {
     .container {
         width: 100%;
         margin: 0 auto;
@@ -111,10 +111,7 @@
     }
     
     .filters, .surprise {
-        width: 100%;
-        text-align: center;
-        margin-right: 0;
-        margin-bottom: 20px;
+        display: none;
     }
     
     .sub-container {
