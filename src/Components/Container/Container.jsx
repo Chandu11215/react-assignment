@@ -18,13 +18,6 @@ const Container = () => {
                             placeholder='Search from the world antique collection...'     
                         />
                     </div>
-                    {/* &nbsp;&nbsp;
-                    <div className="filters">
-                        <Filters />&nbsp;
-                        FILTERS
-                    </div>
-                    <div style={{flex: 1}}></div>
-                    <p className="surprise">🎉&nbsp;SURPRISE ME</p> */}
             </div>
             <div  className="sub-container">
                 <div className="box"><Roomy /></div>
