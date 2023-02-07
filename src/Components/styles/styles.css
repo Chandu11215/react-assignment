@@ -100,18 +100,31 @@
     background-color:aliceblue ;
 }
 
-
-
-@media (min-width: 576px) {
-    .container-fluid {
-        flex-direction: row;
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
     }
-}
-
-
-@media (min-width: 576px) {
+    
     .input-box {
-        width: 70%;
+        width: 100%;
+    }
+    
+    .filters {
+        display: flex;
+    }
+    
+    .sub-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .box {
+        margin: 10px 0;
+    }
+    
+    .card {
+        width: 100%;
     }
 }
 
