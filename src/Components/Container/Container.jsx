@@ -10,18 +10,19 @@ const Container = () => {
     return (
         <div className="container">
             <div className="container-fluid">
-                <div className="input-box">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <input 
-                    type="text" 
-                    placeholder='Search from the world antique collection...'     
-                />
-                </div>
-                <div className="filters">
-                    <Filters />&nbsp;
-                    FILTERS
-                </div>
-                <div className="surprise">🎉&nbsp;SURPRISE ME</div>
+                    <div className="input-box">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input 
+                            type="text" 
+                            placeholder='Search from the world antique collection...'     
+                        />
+                    </div>
+                    &nbsp;&nbsp;
+                    <div className="filters">
+                        <Filters />&nbsp;
+                        FILTERS
+                    </div>
+                <p className="surprise">🎉&nbsp;SURPRISE ME</p>
             </div>
             <div  className="sub-container">
                 <div className="box"><Roomy /></div>

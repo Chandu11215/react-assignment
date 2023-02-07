@@ -36,16 +36,14 @@
 
 
 .container {
-    margin-left: 7rem;
-    width: 64rem;
-    height: 48rem;
     background-color:gainsboro;
 }
 
 .container-fluid {
-    padding: 1.5rem;
+    padding: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -74,7 +72,6 @@
 	border: none;
 	outline: none;
 	font-size: 14px;
-	padding-left: 10px;
 
 
 }
@@ -83,12 +80,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 4rem;
     width: 6rem;
     height: 2.3rem;
     border-radius: 3px;
     border: 1px solid lightgray;
 }
+
 
 .surprise {
     display: flex;
@@ -103,9 +100,24 @@
     background-color:aliceblue ;
 }
 
+
+
+@media (min-width: 576px) {
+    .container-fluid {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .input-box {
+        width: 70%;
+    }
+}
+
 .sub-container {
     display: flex;
-    margin-left: 2.6rem;
+    padding-left: 2.2rem;
     border-radius: 3px;
 }
 
