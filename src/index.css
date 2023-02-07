@@ -24,3 +24,20 @@ code {
   }
 }
 
+
+/* Smartphone */
+@media (max-width: 767px) {
+  /* Add styles for smartphone screens here */
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Add styles for tablet screens here */
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  /* Add styles for desktop screens here */
+}
+
+
