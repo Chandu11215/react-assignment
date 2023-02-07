@@ -99,7 +99,7 @@
     background-color:aliceblue ;
 }
 
-@media (max-width: 767px ) {
+@media (max-width >= 567px ) {
     .container {
         width: 100%;
         margin: 0 auto;
