@@ -11,7 +11,8 @@ const Container = () => {
         <div className="container">
             <div className="container-fluid">
                     <div className="input-box">
-                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <i class="fa fa-search" aria-hidden="true" />
+                        &nbsp;&nbsp;
                         <input 
                             type="text" 
                             placeholder='Search from the world antique collection...'     
@@ -22,7 +23,8 @@ const Container = () => {
                         <Filters />&nbsp;
                         FILTERS
                     </div>
-                <p className="surprise">🎉&nbsp;SURPRISE ME</p>
+                    <div style={{flex: 1}}></div>
+                    <p className="surprise">🎉&nbsp;SURPRISE ME</p>
             </div>
             <div  className="sub-container">
                 <div className="box"><Roomy /></div>
@@ -30,7 +32,7 @@ const Container = () => {
                 <div className="box"><Compact /></div>
             </div>
             <br />
-                <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                <div className='box-wrapper'>
                     {Content.map(content => (
                         <div>
                             <Card
