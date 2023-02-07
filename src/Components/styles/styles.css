@@ -37,6 +37,7 @@
 
 .container {
     background-color:gainsboro;
+    width: 100%;
 }
 
 .container-fluid {
