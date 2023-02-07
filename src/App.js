@@ -1,14 +1,12 @@
 import React from "react";
 import './index.css'
-import Container from "./Components/Container/Container";
-import Navbar from "./Components/Navbar/Navbar";
+import Navigation from "./Components/Navbar/Navigation";
 
 const  App = () => {
 
   return (
         <div className="app">
-          <Navbar />
-          <Container />
+          <Navigation />
         </div>
   );
 }
