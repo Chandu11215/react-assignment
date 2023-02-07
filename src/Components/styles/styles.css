@@ -99,7 +99,7 @@
     background-color:aliceblue ;
 }
 
-@media (max-width >= 576) {
+@media (max-width: 767px ) {
     .container {
         width: 100%;
         margin: 0 auto;
@@ -110,12 +110,11 @@
         margin-bottom: 20px;
     }
     
-    .filters {
-        display: none;
-    }
-
-    .surprise {
-        display: none;
+    .filters, .surprise {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
     }
     
     .sub-container {
