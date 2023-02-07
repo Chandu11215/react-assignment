@@ -108,11 +108,15 @@
     }
     
     .input-box {
-        width: 100%;
+        width: 50%;
     }
     
     .filters {
-        display: flex;
+        display: none;
+    }
+
+    .surprise {
+        display: none;
     }
     
     .sub-container {
